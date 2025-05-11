@@ -1,0 +1,9 @@
+aic94xx-firmware 30-10
+auto-cpufreq 2.5.0-1
+huiontablet v15.0.0.121.202301131103-1
+units 2.24-2
+upd72020x-fw 1:1.0.0-2
+usql 0.19.23-1
+wd719x-firmware 1-7
+wshowkeys-git r5.e8bfc78-2
+yay 12.5.0-1
