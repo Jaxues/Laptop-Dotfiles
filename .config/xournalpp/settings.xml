@@ -246,7 +246,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="282a36"/>
+      <attribute name="color" type="hex" value="f8f8f2"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
@@ -274,7 +274,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="selectRect">
-      <attribute name="drawingType" type="string" value="drawCoordinateSystem"/>
+      <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="selectRegion">
       <attribute name="drawingType" type="string" value="default"/>

@@ -11,3 +11,4 @@
 .mbsyncrc
 pkg/
 src/
+.config/xournalpp/metadata
