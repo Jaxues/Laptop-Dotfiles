@@ -6,7 +6,8 @@ vim.opt.tabstop = 2
 vim.opt.expandtab = false
 vim.g.mapleader = " "
 vim.opt.clipboard = "unnamedplus"
-
+vim.opt.showmode = false
+vim.o.cmdheight = 0
 local lazy = {}
 
 function lazy.install(path)
