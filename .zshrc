@@ -135,4 +135,5 @@ alias data203="cd ~/mathwork/data203 && draw"
 alias stat201="clear && cd ~/stat201 && R"
 alias root="sudo -i"
 alias dotfiles="cd Laptop-Dotfiles"
+alias trm="trash-put"
 bindkey -v

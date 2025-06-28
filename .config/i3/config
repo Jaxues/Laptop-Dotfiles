@@ -42,7 +42,7 @@ bindsym --release Print exec gnome-screenshot -i
 
 # Setup select on print screen
 bindsym --release $mod+Print exec gnome-screenshot -a
-
+bindsym --release $mod+space exec ~/i3lock-color/lock 
 # Setup brightness up
 bindsym --release XF86MonBrightnessUp exec brightnessctl s 5%+
 
