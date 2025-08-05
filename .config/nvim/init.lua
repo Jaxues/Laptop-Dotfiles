@@ -1,3 +1,4 @@
+local lazy={}
 vim.opt.number = true
 vim.opt.hlsearch = true
 vim.opt.wrap = true
@@ -8,7 +9,6 @@ vim.g.mapleader = " "
 vim.opt.clipboard = "unnamedplus"
 vim.opt.showmode = false
 vim.o.cmdheight = 0
-local lazy = {}
 
 function lazy.install(path)
   if not vim.loop.fs_stat(path) then
@@ -46,11 +46,24 @@ lazy.setup({
     init = function() 
       vim.g.vimwiki_list = {
         {
-          syntax = 'default',
+					path='~/vimwiki',
+					syntax = 'markdown',
           ext = '.md',
         },
       }
     end,
+		config = function()
+    -- Dracula custom highlights for Vimwiki
+    vim.cmd [[
+      augroup VimwikiDracula
+        autocmd!
+        autocmd FileType vimwiki highlight VimwikiLink guifg=#bd93f9 gui=underline
+        autocmd FileType vimwiki highlight VimwikiHeader1 guifg=#ff79c6 gui=bold
+        autocmd FileType vimwiki highlight VimwikiHeader2 guifg=#ff79c6 gui=bold
+        autocmd FileType vimwiki highlight VimwikiHeader3 guifg=#ff79c6 gui=bold
+      augroup END
+    ]]
+  end
   },
   {"Mofiqul/dracula.nvim", priority = 1000},
   {"nvim-treesitter/nvim-treesitter"},
@@ -67,6 +80,7 @@ lazy.setup({
     end,
   }
 })
+
 
 -- these should stay AFTER lazy.setup
 require("lualine").setup()

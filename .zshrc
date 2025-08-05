@@ -136,4 +136,10 @@ alias stat201="clear && cd ~/stat201 && R"
 alias root="sudo -i"
 alias dotfiles="cd Laptop-Dotfiles"
 alias trm="trash-put"
+alias rstudio-start="rstudio-server start"
+alias rstudio-stop="rstudio-server stop"
+alias info260='cd ~/info260 && nv'
 bindkey -v
+
+# Created by `pipx` on 2025-07-02 01:17:44
+export PATH="$PATH:/home/avery/.local/bin"
