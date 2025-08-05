@@ -28,7 +28,6 @@ i3blocks 1.5-4
 i3lock 2.15-2
 i3status 2.15-1
 ibus 1.5.32-1
-imagemagick 7.1.1.47-2
 intel-ucode 20250211-1
 iwd 3.8-1
 jre21-openjdk 21.0.7.u6-1
