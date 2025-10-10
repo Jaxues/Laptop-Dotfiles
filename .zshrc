@@ -136,6 +136,8 @@ alias rstudio-start="rstudio-server start"
 alias rstudio-stop="rstudio-server stop"
 alias info260='cd ~/info260 && nv'
 alias slide="libreoffice --headless --convert-to pdf"
+alias paclist="pacman -Qqe > corepacakages.txt"
+alias yalist="pacman -Qqem > externalpacakges.txt"
 bindkey -v
 
 # Created by `pipx` on 2025-07-02 01:17:44
