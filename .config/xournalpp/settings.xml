@@ -16,7 +16,7 @@
   <property name="displayDpi" value="72"/>
   <property name="mainWndWidth" value="764"/>
   <property name="mainWndHeight" value="988"/>
-  <property name="maximized" value="false"/>
+  <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="true"/>
   <property name="sidebarWidth" value="153"/>
@@ -30,7 +30,7 @@
   <property name="viewFixedRows" value="false"/>
   <property name="showPairedPages" value="false"/>
   <property name="layoutVertical" value="false"/>
-  <property name="layoutRightToLeft" value="false"/>
+  <property name="layoutRightToLeft" value="true"/>
   <property name="layoutBottomToTop" value="false"/>
   <property name="numPairsOffset" value="1"/>
   <!--The icon theme, allowed values are "disabled", "onDrawOfLastPage", and "onScrollOfLastPage"-->

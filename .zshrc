@@ -128,17 +128,14 @@ alias lecture="cd ~/school/readings/lecture_slides/ && ranger"
 alias nf="neowofetch"
 alias draw="xournalpp"
 alias da="deactivate && cd && clear"
-alias cosc122="cd && vrun cosc122env && cd ~/cosc122work/ && nv"
 alias ub="ranger ~/unibooks"
-alias stat211="cd ~/mathwork/stat211/ && draw"
-alias data203="cd ~/mathwork/data203 && draw"
-alias stat201="clear && cd ~/stat201 && R"
 alias root="sudo -i"
 alias dotfiles="cd Laptop-Dotfiles"
 alias trm="trash-put"
 alias rstudio-start="rstudio-server start"
 alias rstudio-stop="rstudio-server stop"
 alias info260='cd ~/info260 && nv'
+alias slide="libreoffice --headless --convert-to pdf"
 bindkey -v
 
 # Created by `pipx` on 2025-07-02 01:17:44
