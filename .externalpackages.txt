@@ -1,0 +1,12 @@
+aic94xx-firmware
+auto-cpufreq
+huiontablet
+i3lock-color
+rstudio-desktop-bin
+rstudio-server-bin
+udunits
+units
+upd72020x-fw
+wd719x-firmware
+wshowkeys-git
+yay
