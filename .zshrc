@@ -27,7 +27,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
-
+setopt auto_menu
+setopt menu_complete
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
@@ -116,7 +117,7 @@ alias rb="reboot"
 alias c="clear"
 alias q="exit"
 alias batt="acpi"
-alias write="cd ~/Documents && nvim index.md && clear"
+alias write="cd ~/Documents/vimwiki && clear && nvim index.md "
 alias down="ranger ~/Downloads"
 alias uni=" cd ~/school && nv index.md && clear"
 alias zar="zathura"
@@ -138,6 +139,9 @@ alias info260='cd ~/info260 && nv'
 alias slide="libreoffice --headless --convert-to pdf"
 alias paclist="pacman -Qqe > corepacakages.txt"
 alias yalist="pacman -Qqem > externalpacakges.txt"
+alias office='libreoffice'
+alias dotfiles="cd ~/Laptop-Dotfiles && nv"
+alias scim="sc-im"
 bindkey -v
 
 # Created by `pipx` on 2025-07-02 01:17:44
