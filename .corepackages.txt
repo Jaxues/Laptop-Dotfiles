@@ -11,12 +11,14 @@ base
 base-devel
 bat
 brightnessctl
+calcurse
 clipmenu
 cmake
 dmenu
 dysk
 efibootmgr
 expac
+fdupes
 feh
 firefox
 fzf
@@ -75,10 +77,13 @@ qt5ct
 r
 ranger
 reflector
+rofi
 rstudio-desktop-bin
 rstudio-server-bin
+sc-im
 smartmontools
 sof-firmware
+steam
 stow
 texlive-basic
 texlive-bibtexextra
@@ -99,6 +104,7 @@ wireless_tools
 wireplumber
 wshowkeys-git
 xclip
+xdg-ninja
 xorg-xev
 xorg-xrandr
 xournalpp

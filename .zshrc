@@ -126,16 +126,15 @@ alias ff="firefox"
 alias nf="neowofetch"
 alias draw="xournalpp"
 alias root="sudo -i"
-alias dotfiles="cd Laptop-Dotfiles"
+alias df="cd Laptop-Dotfiles"
 #alias trm="trash-put"
 alias rstudio-start="rstudio-server start"
 alias rstudio-stop="rstudio-server stop"
 alias info260='cd ~/info260 && nv'
 alias slide="libreoffice --headless --convert-to pdf"
-alias paclist="pacman -Qqe > corepacakages.txt"
-alias yalist="pacman -Qqem > externalpacakges.txt"
+alias paclist="pacman -Qqe > .corepackages.txt"
+alias yalist="pacman -Qqem > .externalpackages.txt"
 alias office='libreoffice'
-alias dotfiles="cd ~/Laptop-Dotfiles && nv"
 alias scim="sc-im"
 bindkey -v
 
