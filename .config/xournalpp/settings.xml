@@ -6,8 +6,8 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Dracula"/>
-  <property name="lastSavePath" value="/home/avery/pnpgames"/>
-  <property name="lastOpenPath" value="/home/avery/stat202/exams"/>
+  <property name="lastSavePath" value="/home/avery/Documents/pnpgames"/>
+  <property name="lastOpenPath" value="/home/avery/Documents/pnpgames"/>
   <property name="lastImagePath" value=""/>
   <property name="edgePanSpeed" value="20"/>
   <property name="edgePanMaxMult" value="5"/>
@@ -18,8 +18,8 @@
   <property name="mainWndHeight" value="988"/>
   <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
-  <property name="showSidebar" value="true"/>
-  <property name="sidebarWidth" value="153"/>
+  <property name="showSidebar" value="false"/>
+  <property name="sidebarWidth" value="50"/>
   <property name="sidebarNumberingStyle" value="1"/>
   <property name="sidebarOnRight" value="false"/>
   <property name="scrollbarOnLeft" value="false"/>
@@ -246,7 +246,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="282a36"/>
+      <attribute name="color" type="hex" value="ff79c6"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
