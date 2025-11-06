@@ -17,8 +17,8 @@ general {
 
 order += "wireless _first_"
 order+="volume master"
-order += "battery all"
 order += "disk /"
+order += "battery all"
 order += "tztime local"
 
 wireless _first_ {
