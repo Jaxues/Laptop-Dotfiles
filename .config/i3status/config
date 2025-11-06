@@ -15,8 +15,8 @@ general {
   interval = 5
 }
 
-order+="volume master"
 order += "wireless _first_"
+order+="volume master"
 order += "battery all"
 order += "disk /"
 order += "tztime local"
