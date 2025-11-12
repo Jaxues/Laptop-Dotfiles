@@ -38,26 +38,37 @@ exec --no-startup-id nm-applet
 # Run autostart on startup
 exec --no-startup-id auto-cpufreq
 exec --no-startup-id fcitx
+exec --no-startup-id greenclip daemon>/dev/null
 # Setup screenshot on click of print screen
 bindsym --release Print exec gnome-screenshot -i  
 
 # Setup select on print screen
-bindsym --release $mod+Print exec gnome-screenshot -a
+bindsym --release F8 exec gnome-screenshot -a
+
 bindsym --release $mod+space exec ~/i3lock-color/lock 
 # Setup brightness up
 bindsym --release XF86MonBrightnessUp exec brightnessctl s 5%+
-
-# SEtup brightness down 
+bindsym --release F7 exec exec brightnessctl s 5%+
+# Setup brightness down 
 bindsym --release XF86MonBrightnessDown exec brightnessctl s 5%-
+bindsym --release F6 exec brightnessctl s 5%-
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+
+# Use Function keys to adjust audio
+#bindsym F4 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
+#bindsym F3 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+#bindsym F2 exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+
+bindsym F1 exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+
 
 # Use Mouse+$mod to drag floating windows to their wanted position
+
 #floating_modifier $mod
 
 # move tiling windows via drag & drop by left-clicking into the title bar,

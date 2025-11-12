@@ -135,7 +135,5 @@ alias yalist="pacman -Qqem > .externalpackages.txt"
 alias office='libreoffice'
 alias scim="sc-im"
 bindkey -v
-zle-line-init() { zle -K vicmd; }
-zle -N zle-line-init
 # Created by `pipx` on 2025-07-02 01:17:44
 export PATH="$PATH:/home/avery/.local/bin"
