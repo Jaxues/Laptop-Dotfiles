@@ -18,7 +18,6 @@ dmenu
 dysk
 efibootmgr
 expac
-fdupes
 feh
 firefox
 fzf
