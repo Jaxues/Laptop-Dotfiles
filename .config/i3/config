@@ -36,7 +36,7 @@ exec_always --no-startup-id NetworkManager
 exec --no-startup-id nm-applet
 
 # Run autostart on startup
-exec --no-startup-id auto-cpufreq
+#exec --no-startup-id auto-cpufreq
 exec --no-startup-id fcitx
 exec --no-startup-id greenclip daemon>/dev/null
 # Setup screenshot on click of print screen
