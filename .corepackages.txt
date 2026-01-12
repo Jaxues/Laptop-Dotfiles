@@ -4,12 +4,12 @@ adobe-source-han-sans-jp-fonts
 adobe-source-han-serif-jp-fonts
 aic94xx-firmware
 alacritty
-arch-wiki-docs
 arrow
-auto-cpufreq
 base
 base-devel
 bat
+bluez
+bluez-utils
 brightnessctl
 calcurse
 clipmenu
@@ -29,6 +29,7 @@ github-cli
 gitleaks
 gnome-screenshot
 go
+greenclip
 gst-plugin-pipewire
 huiontablet
 hyfetch
@@ -50,7 +51,6 @@ lightdm-gtk-greeter
 linux
 linux-firmware
 linux-firmware-qlogic
-lynx
 man-db
 mpv
 nano
@@ -62,6 +62,7 @@ npm
 nvm
 openssh
 otf-comicshanns-nerd
+pamixer
 pandoc-cli
 pipewire
 pipewire-alsa
@@ -91,6 +92,7 @@ texlive-fontsextra
 texlive-latexextra
 texlive-latexrecommended
 texlive-mathscience
+tldr
 udunits
 units
 upd72020x-fw
@@ -98,7 +100,6 @@ vim
 wayland-protocols
 wd719x-firmware
 wget
-wikiman
 wireless_tools
 wireplumber
 wshowkeys-git

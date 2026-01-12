@@ -125,7 +125,6 @@ alias airplaneoff="nmcli radio all on"
 alias nf="neowofetch"
 alias draw="xournalpp"
 alias root="sudo -i"
-alias df="cd ~/Laptop-Dotfiles"
 alias rstudio-start="rstudio-server start"
 alias rstudio-stop="rstudio-server stop"
 alias slide="libreoffice --headless --convert-to pdf"
@@ -133,6 +132,9 @@ alias paclist="pacman -Qqe > .corepackages.txt"
 alias yalist="pacman -Qqem > .externalpackages.txt"
 alias office='libreoffice'
 alias sc="sc-im"
+alias bluetooth-on="sudo systemctl start bluetooth "
+alias bluetooth-off="sudo systemctl stop bluetooth"
 bindkey -v
+
 # Created by `pipx` on 2025-07-02 01:17:44
 export PATH="$PATH:/home/avery/.local/bin"

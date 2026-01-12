@@ -78,9 +78,11 @@ lazy.setup({
       require("nvim-tree").setup {}
 			vim.keymap.set('n', '<leader>d', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
     end,
-  }
+  },
+	{"folke/twilight.nvim"}
 })
 
+vim.keymap.set('n','<leader>t',':Twilight<CR>')
 
 -- these should stay AFTER lazy.setup
 require("lualine").setup()
